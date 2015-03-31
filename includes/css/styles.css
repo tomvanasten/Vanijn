@@ -1,0 +1,374 @@
+/*
+
+My Custom CSS
+=============
+
+Written by Tom van Asten
+Ace Webdesigns.net
+
+*/
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#landpages {
+    text-align: center;
+}
+
+#landpages img {
+    margin: auto;
+    margin: 0 0 20px;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+#prijzen {
+    text-align: center;
+}
+
+#prijzen img {
+    margin: 0 0 20px;
+}
+
+.jumbotron {
+    margin: 0px 0 10px;
+    padding: 15vh 1vh;
+    background-color: #14b25a;
+    background-image: url(../../images/header_banner_large.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    z-index: 11;
+}
+
+.jumbotron-page {
+    position: relative;
+    margin: 0px 0 10px;
+    padding: 15vh 1vh;
+    background-color: #14b25a;
+    background-image: url(../../images/header_banner_large.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 45%;
+    z-index: 11;
+}
+
+.jumbo-text {
+    margin-top: 6%;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
+}
+
+.jumbo-text h2 {
+    text-align: center;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #333;
+    border-color: #b59663;
+    font-size: 11px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+footer .footer-text-tom a {
+    color: #b59663;
+    border-color: #b59663;
+    text-align: left;
+}
+
+footer .footer-text-tom p {
+    color: #b59663;
+    text-align: left;
+}
+
+.footer-onder {
+    background: transparent;
+    color: #333;
+    font-size: 11px;
+    text-align: right;
+    padding: 20px;
+}
+
+footer .footer-text-tom a:hover {
+    background-color: transparent;
+    color: #468847;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+    text-decoration: none;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.content {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.well .page-header {
+    margin-top: 0;
+}
+
+.well .page-header h1 {
+    margin-top: 0;
+}
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.hr-tom {
+    border-bottom: 1px solid #ccc;
+}
+
+blockquote {
+    border-left: 6px solid #b0813d;
+    padding: 10px;
+}
+
+.well blockquote {
+    border-left: 6px solid #b0813d;
+    padding: 10px;
+}
+
+blockquote small {
+    color: #468847;
+}
+
+.dropdown-menu span.glyphicon {
+    font-size: 1.1em;
+    font-size-adjust: auto;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-brand {
+    padding: 13px;
+}
+
+.navbar {
+    border: 2px solid #ccc;
+    height: 100dp;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 1%;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-image: none !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #b0813d;
+    color: #fff;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+/* --------------------------------------
+   Custom Bootstrap
+   -------------------------------------- */
+
+.text-brown {
+    color: #b59663;
+}
+
+.label-brown {
+    background-color: green;
+}
+
+.label-brown[href]:hover,
+.label-brown[href]:focus {
+    background-color: darkgreen;
+}
+
+.btn-brown {
+    color: #ffffff;
+    background-color: rgba(176, 129, 61, 0.79);
+    border-color: #b0813d;
+}
+
+.btn-brown:hover,
+.btn-brown:focus,
+.btn-brown:active,
+.btn-brown.active {
+    background-color: transparent;
+    color: #b0813d;
+    border-color: #b0813d;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+
+.btn-brown.disabled,
+.btn-brown[disabled],
+fieldset[disabled] .btn-brown,
+.btn-brown.disabled:hover,
+.btn-brown[disabled]:hover,
+fieldset[disabled] .btn-brown:hover,
+.btn-brown.disabled:focus,
+.btn-brown[disabled]:focus,
+fieldset[disabled] .btn-brown:focus,
+.btn-brown.disabled:active,
+.btn-brown[disabled]:active,
+fieldset[disabled] .btn-brown:active,
+.btn-brown.disabled.active,
+.btn-brown[disabled].active,
+fieldset[disabled] .btn-brown.active {
+    background-color: rgba(176, 129, 61, 0.79);
+    border-color: #b0813d;
+}
+
+.panel-brown {
+    border-color: #b0813d;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.panel-brown .panel-heading {
+    color: #ffffff;
+    background-color: rgba(176, 129, 61, 0.79);
+    border-color: #b0813d;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+    margin-top: 20px;
+    display: none;
+}
+
+.dropdown .active {
+    background-color: #00AFB0;
+}
+
+.well {
+    margin: 20px 0;
+    border-color: #b59663;
+}
+
+.well h1 small {
+    color: #b59663;
+}
+
+.thumbnail,
+.img-thumbnail {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+/* == Phones == */
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+    .navbar-brand {
+        padding: 13px;
+    }
+    .navbar {
+        border: 1px #ccc solid;
+        height: 50dp;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        width: 100%;
+    }
+    .content {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .content p {
+        text-align: justify;
+    }
+    .well h1 {
+        font-size: 200%;
+    }
+    blockquote {
+        font-size: 75%;
+    }
+}
+/* == Tablets == */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        padding: 13px;
+    }
+    .navbar {
+        border: 1px #ccc solid;
+        height: 50dp;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        margin: 0;
+        width: 100%;
+    }
+    .content {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .content p {
+        text-align: justify;
+    }
+    .well h1 {
+        font-size: 210%;
+    }
+    blockquote {
+        font-size: 95%;
+    }
+}
+/* == Desktops == */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* == css== */
+}
+/* == Large desktops == */
+
+@media only screen and (min-width: 1200px) {
+    .navbar-brand {
+        padding: 13px;
+    }
+    .navbar {
+        min-height: 130dp;
+    }
+    .content {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .well h1 {
+        font-size: 250%;
+    }
+    blockquote {
+        font-size: 110%;
+    }
+}
