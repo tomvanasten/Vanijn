@@ -429,6 +429,12 @@ fieldset[disabled] .btn-green.active {
 /* == Phones == */
 
 @media only screen and (min-width: 100px) and (max-width: 767px) {
+    .jumbotron > .jumbo-text > h1{
+        font-size: 200%;
+    }
+    .jumbotron-page > .jumbo-text > h1 {
+        font-size: 200%;
+    }    
     .navbar-brand {
         padding: 13px;
     }
@@ -456,6 +462,12 @@ fieldset[disabled] .btn-green.active {
 /* == Tablets == */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .jumbotron > .jumbo-text > h1{
+        font-size: 200%
+    }
+    .jumbotron-page > .jumbo-text > h1 {
+        font-size: 200%;
+    }
     .navbar-brand {
         padding: 13px;
     }
