@@ -58,6 +58,7 @@ The Netherlands
 .jumbotron {
     margin: 0px 0 10px;
     padding: 15vh 1vh;
+    border-radius: 0;
     background-color: #14b25a;
     background-image: url(../../images/header_banner_large.jpg);
     background-position: center;
@@ -85,6 +86,10 @@ The Netherlands
     position: relative;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3)
+}
+
+.jumbotron-page > .jumbo-text > h1 {
+    font-size: 25pt;
 }
 
 .jumbo-text h2 {
@@ -157,6 +162,18 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.tom-title-line {
+    border-bottom: 1px dashed white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15pt;
+}
+
+.tom-title-none {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
 .content {
     padding: 20px;
     margin-bottom: 20px;
@@ -186,10 +203,6 @@ ul.unstyled {
 .gold-glyph {
     color: #b0813d;
     text-decoration: none;
-}
-
-.tom-title {
-    border-bottom: 1px dashed white;
 }
 
 blockquote {
@@ -326,17 +339,17 @@ fieldset[disabled] .btn-brown.active {
 }
 
 .label-green {
-    background-color: green;
+    background-color: blue;
 }
 
 .label-green[href]:hover,
 .label-green[href]:focus {
-    background-color: darkgreen;
+    background-color: darkblue;
 }
 
 .btn-green {
     color: #ffffff;
-    background-color: rgba(176, 129, 61, 0.79);
+    background-color: rgba(85, 182, 157, 0.79);
     border-color: #34886F;
 }
 
@@ -368,9 +381,7 @@ fieldset[disabled] .btn-green:active,
 .btn-green.disabled.active,
 .btn-green[disabled].active,
 fieldset[disabled] .btn-green.active {
-    background-color: rgba(176, 129, 61, 0.79);
-    /*TODO*/
-    
+    background-color: rgba(85, 182, 157, 0.79);
     border-color: #34886F;
 }
 
@@ -378,14 +389,11 @@ fieldset[disabled] .btn-green.active {
     border-color: #34886F;
     background-color: transparent;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    /*TODO*/
 }
 
 .panel-green .panel-heading {
     color: #ffffff;
-    background-color: rgba(176, 129, 61, 0.79);
-    /*TODO*/
-    
+    background-color: rgba(85, 182, 157, 0.79);
     border-color: #34886F;
 }
 /* --------------------------------------
