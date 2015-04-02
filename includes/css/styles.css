@@ -75,7 +75,7 @@ The Netherlands
     background-image: url(../../images/header_banner_large.jpg);
     background-position: center;
     background-size: cover;
-    height: 45%;
+    height: 50%;
     z-index: 11;
 }
 
@@ -332,6 +332,11 @@ fieldset[disabled] .btn-brown.active {
     background-color: rgba(176, 129, 61, 0.79);
     border-color: #b0813d;
 }
+
+.text-white {
+    color: white;
+}
+
 /* Theme Groen*/
 
 .text-green {
@@ -429,11 +434,11 @@ fieldset[disabled] .btn-green.active {
 /* == Phones == */
 
 @media only screen and (min-width: 100px) and (max-width: 767px) {
-    .jumbotron > .jumbo-text > h1{
-        font-size: 200%;
+    .jumbotron > .jumbo-text > {
+        font-size: 200%
     }
-    .jumbotron-page > .jumbo-text > h1 {
-        font-size: 200%;
+    .jumbotron-page > .jumbo-text > {
+        font-size: 100%;
     }    
     .navbar-brand {
         padding: 13px;
@@ -462,11 +467,11 @@ fieldset[disabled] .btn-green.active {
 /* == Tablets == */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .jumbotron > .jumbo-text > h1{
+    .jumbotron > .jumbo-text > {
         font-size: 200%
     }
-    .jumbotron-page > .jumbo-text > h1 {
-        font-size: 200%;
+    .jumbotron-page > .jumbo-text > {
+        font-size: 100%;
     }
     .navbar-brand {
         padding: 13px;
